@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Environment (never commit secrets)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Builds
+dist/
+build/
+
+# Logs and OS
+*.log
+.DS_Store
+
+# Tooling
+coverage/
+*.tsbuildinfo
+
+# Cursor scratch notes
+cursor_*.md
